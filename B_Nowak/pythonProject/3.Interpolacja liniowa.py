@@ -27,7 +27,7 @@ def interpolacja_1d_cala_vlin(x, tab_wart):
     i_x_l = funkcja_skrotu_1d(x_l, DTW)
     i_x_p = funkcja_skrotu_1d(x_p, DTW)
 
-    w_1 = tab_wart[i_x_l]
+    w_l = tab_wart[i_x_l]
     w_p = tab_wart[i_x_p]
 
     return interpolacja_1d_rdzen_vlin(w_1, w_p, delta_x)
